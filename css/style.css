@@ -19,7 +19,7 @@ img {
 	height: 500px;
 	width: 380px;
 }
-.card .imgbox {
+.card .imgBox {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -30,12 +30,11 @@ img {
 	transition: .5s;
 	transform: translateY(0) rotateX(0deg);
 }
-.card:hover .imgbox {
+.card:hover .imgBox {
 	transform: translateY(-100%) rotateX(90deg);
 }
 
 .card .details {
-	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
